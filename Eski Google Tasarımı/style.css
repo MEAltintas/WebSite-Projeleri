@@ -1,0 +1,18 @@
+img {
+ height: 113px;
+ width: 351px;
+
+}
+table {
+    border: 0px;
+    width: 90%;
+}
+.ilk {
+    background-color:#EEEEEE;
+    text-align: center;
+}
+.ikinci, .ucuncu, .dorduncu {
+    background-color:#7EE5DA;
+    text-align: center;
+}
+

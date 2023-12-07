@@ -1,0 +1,51 @@
+.gezegen {
+    color: indigo;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+}
+
+#ilk {
+    color: black;
+    font-size: 25px;
+}
+
+h2 {
+    text-align: center;
+    color: purple;
+    font-size: 50px;
+}
+
+img {
+    height: 450px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+
+    font-size: 20px;
+}
+
+h3 {
+    color: brown;
+    font-size: 30px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+li:first-child {
+    font-weight: bold;
+
+}
+
+li:nth-child(even) {
+    color: saddlebrown;
+}

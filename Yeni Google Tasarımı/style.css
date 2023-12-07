@@ -1,0 +1,107 @@
+a {
+    color: black;
+}
+
+div {
+    margin-top: 10px;
+}
+
+.ilk-div {
+    margin-left: 0;
+    float: left;
+    margin-top: 15px;
+}
+
+.ikinci-div {
+    margin-left: 10px;
+    float: left;
+    margin-top: 15px;
+}
+
+.ucuncu-div {
+    margin-right: 10px;
+    float: right;
+    margin-top: 15px;
+}
+
+.dorduncu-div {
+    padding-right: 10px;
+    float: right;
+}
+
+.ben {
+
+    width: 32px;
+    height: 32px;
+}
+
+#button {
+    float: right;
+    color: white;
+    background-color: royalblue;
+    border-radius: 2px;
+    padding: 8px;
+    border: 0px;
+    margin-top: 10px;
+}
+
+#logo {
+    margin: auto;
+    padding: auto;
+    margin-top: 15%;
+}
+
+#text {
+    margin-left: 36%;
+    border-radius: 15px;
+    width: 480px;
+    height: 30px;
+    box-shadow: 0 2px 3px 0 white white;
+    border-color: aliceblue;
+
+}
+
+.iki-button {
+    border-color: white;
+    padding: 10px;
+    border: 0px;
+    border-radius: 2px;
+    margin: 5px
+}
+
+.a-sol1 {
+    margin-left: 0;
+    float: left;
+    margin-top: 20%;
+}
+
+.a-sol2 {
+    margin-left: 20px;
+    float: left;
+    margin-top: 20%;
+}
+
+.a-sol3 {
+    margin-left: 20px;
+    float: left;
+    margin-top: 20%;
+}
+
+.a-sag1 {
+    margin-right: 20px;
+    float: right;
+    margin-top: 20%;
+}
+
+.a-sag2 {
+    margin-right: 20px;
+    float: right;
+    margin-top: 20%;
+}
+
+.a-sag3 {
+    margin-right: 0px;
+    float: right;
+    margin-top: 20%;
+}
+

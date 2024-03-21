@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Kısmı*/
+header {
+    background-color: #e3651d;
+    color: #fff;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/*Search Kısmı(Arama kutusu)*/
+.search-container {
+    max-width: 800px;
+    margin: 30px auto 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-container input[type="text"] {
+    padding: 20px;
+    width: 70%;
+    border-radius: 30px 0 0 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+}
+
+.search-container button {
+    padding: 20px 30px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+    background-color: #ff5733;
+    border: none;
+    outline: none;
+    border-radius: 0 30px 30px 0;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: 300ms all;
+}
+
+.search-container button:hover {
+    background-color: #ff3d00;
+}
+
+/*Hero Kısmı*/
+.hero {
+    background-image: url("images/hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ff5733;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 300ms all;
+}
+
+
+/*Sipariş ver butonu*/
+.order-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px !important;
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 300ms all;
+}
+
+/*Butonlar için hover kısmı*/
+.button:hover,
+.order-button:hover {
+    background-color: #ff3d00;
+}
+
+/*Yemekler Kısmı*/
+.promotion,
+.featured,
+.menu {
+    max-width: 1200px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.promotion h2,
+.featured h2,
+.menu h2 {
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: calc(33.333% - 20px);
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.menu-item:hover {
+    transition: 300ms all;
+    transform: scale(1.03);
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3,
+.menu-item p {
+    margin-bottom: 13px;
+}
+
+.menu-item span {
+    display: block;
+    font-weight: bold;
+    color: green;
+}
+
+del {
+    color: red;
+    opacity: 0.7;
+}
+
+.tag {
+    background-color: #ff5733;
+    color: #fff !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 12px;
+    top: -10px;
+    right: -5px;
+}
+
+/*Footer Kısmı*/
+.footer {
+    background-color: #e3651d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.footer a {
+    color: #fff;
+}
+
+/*Responsive Tasarım*/
+@media only screen and (max-width:480px) {
+    .menu {
+        text-align: center;
+    }
+
+    .promotion,
+    .featured {
+        text-align: center;
+    }
+
+    .menu-item {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+}
